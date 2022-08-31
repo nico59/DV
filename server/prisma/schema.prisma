@@ -1,0 +1,57 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(cuid())
+  lastName  String?
+  password  String
+  roles     String[]
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Opera {
+  createdAt     DateTime     @default(now())
+  descrizione   Descrizione?
+  id            String       @id @default(cuid())
+  immagineOpera Json?
+  museo         Museo        @relation(fields: [museoId], references: [id])
+  museoId       String
+  titoloOpera   String?
+  updatedAt     DateTime     @updatedAt
+}
+
+model Museo {
+  createdAt     DateTime @default(now())
+  denominazione String?
+  id            String   @id @default(cuid())
+  operas        Opera[]
+  updatedAt     DateTime @updatedAt
+}
+
+model Descrizione {
+  capitolo  Capitolo[]
+  createdAt DateTime   @default(now())
+  id        String     @id @default(cuid())
+  operas    Opera?     @relation(fields: [operasId], references: [id])
+  operasId  String?    @unique
+  updatedAt DateTime   @updatedAt
+}
+
+model Capitolo {
+  createdAt    DateTime      @default(now())
+  descriziones Descrizione[]
+  id           String        @id @default(cuid())
+  numero       Int?
+  testo        String?
+  titolo       String?
+  updatedAt    DateTime      @updatedAt
+}
