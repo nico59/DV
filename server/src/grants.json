@@ -1,0 +1,302 @@
+[
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Opera",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Opera",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Opera",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Opera",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Opera",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Opera",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Opera",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Opera",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Opera",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Opera",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Museo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Museo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Museo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Museo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Museo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Museo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Museo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Museo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Museo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Museo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Descrizione",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Descrizione",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Descrizione",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Descrizione",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Descrizione",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Descrizione",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Descrizione",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Descrizione",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Descrizione",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Descrizione",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Capitolo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Capitolo",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Capitolo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Capitolo",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Capitolo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Capitolo",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Capitolo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Capitolo",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Capitolo",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "editor",
+    "resource": "Capitolo",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
